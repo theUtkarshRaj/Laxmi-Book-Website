@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laxmi Book</title>
+    <script src="https://kit.fontawesome.com/2abc677cdf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<nav class="nav-bar">
+<div class="nav-left">
+<img src="./images/laxmi-book-logo.jpg" alt="">
+</div>
+<div class="nav-middle">
+  <div class="close-icon" onclick="toggleNavMiddle()">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 15 15">
+        <path fill="#ff0000" fill-rule="evenodd" d="M11.782 4.032a.575.575 0 1 0-.813-.814L7.5 6.687L4.032 3.218a.575.575 0 0 0-.814.814L6.687 7.5l-3.469 3.468a.575.575 0 0 0 .814.814L7.5 8.313l3.469 3.469a.575.575 0 0 0 .813-.814L8.313 7.5z" clip-rule="evenodd"/>
+    </svg>
+</div>
+<a href="#">Home</a>
+<a href="#about">About Us</a>
+<div class="dropdown">
+<span onmouseover="toggleDropdown('gamesDropdown')" class="dropbtn">Games <i class="fa-solid fa-caret-down"></i></span>
+<div id="gamesDropdown" class="dropdown-content">
+  <a href="https://en.wikipedia.org/wiki/Cricket">Cricket</a>
+  <a href="https://en.wikipedia.org/wiki/Chess">Chess</a>
+  <a href="https://en.wikipedia.org/wiki/Football">Football</a>
+</div>
+</div>
+<a href="#contact">Contact Us</a>
+<div class="dropdown">
+  <span onmouseover="toggleDropdown(true)" onmouseout="toggleDropdown(false)" class="dropbtn">Blog <i class="fas fa-caret-down"></i></span>
+  <div id="blogsDropdown" class="dropdown-content">
+      <a href="#">Blog 1</a>
+      <a href="#">Blog 2</a>
+      <a href="#">Blog 3</a>
+      <a href="#">Blog 4</a>
+  </div>
+</div>
+</div>
+</div>
+<button class="btn-WA btn-WA-nav" onclick="openWhatsApp()" ><i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></button>
+<div class="menu" onclick="toggleNavMiddle()"><i class="fa-solid fa-bars" style="color: #000000;"></i></div>
+</nav>
+  <!----------------------------hero section-->
+  <div class="slider-container">
+    <div class="slider">
+        <img src="./images/cricket-bg.jpg" alt="Image 1">
+        <img src="./images/football-bg.jpg" alt="Image 2">
+        <img src="./images/tennis-bg.jpg" alt="Image 3">
+        <img src="./images/card-bg.jpg" alt="Image 4">
+    </div>
+    <button class="prev-btn" onclick="prevSlide()">❮</button>
+    <button class="next-btn" onclick="nextSlide()">❯</button>
+</div>
+  <!-- ------------card section---------->
+<div class="card-section">
+  <div  class="card card-1">
+    <img src="./images/fast-deposit.jpg" alt="image">
+    <h4>FAST DEPOSIT</h4>
+  </div>
+  <div  class="card card-2">
+    <img src="./images/fast-withdrawl.jpg" alt="image">
+    <h4>FAST WITHDRWAL</h4>
+  </div>
+  <div  class="card  card-3">
+    <img src="./images/24-hr-support.jpg" alt="image">
+    <h4>24 HOURS SUPPORT</h4>
+  </div>
+  <div  class="card">
+    <img src="./images/regular-bonous.jpg" alt="image">
+    <h4>REGULAR BONUS</h4>
+  </div>
+  <div  class="card">
+    <img src="./images/premium-exchange.jpg" alt="image">
+    <h4>PREMIUM EXCH</h4>
+  </div>
+</div>
+<!-----------------id Section----------->
+<div class="id-section">
+  <h1>Get Online Cricket ID with the Best Online Betting ID Provider in India</h1>
+ <div class="div-1">
+  <h3>Experience the thrill of Online betting in India like never before! Get your exclusive betting ID and dive into the world of exciting cricket matches. Book Now and</h3>
+  <h3>Get a 10% Extra Welcome Bonus and a Demo ID in Just 5 minutes!</h3>
+ </div>
+
+  <div class="div-1">
+    <h3>We provide all sorts of Online Betting ID for Cricket, Football, Casino and More with 24×7 ID support for 150+ live games. We also provide a user-friendly</h3>
+  <h3>platform so that you can enjoy a seamless experience while betting on your favorite teams and players.</h3>
+  </div>
+
+  <h3>What are you waiting for? Reach us out on Whatsapp now to get your Online betting ID in India!  </h3>
+  <button id="btn-id" onclick="getId()">Get Your ID Now</button>
+</div>
+<!-----------------BOOK now section----->
+<div class="book-now">
+  <h1>Book Now and Choose from a Variety of Online Betting Sports</h1>
+  <h3>Get in Touch to Get Your Online Betting ID and Join in on the Fun and Excitement! Get a Welcome Bonus with Your Demo Online Betting ID</h3>
+  <div class="book-container">
+    <img src="./images/cricket-book.png" alt="Cricket">
+    <img src="./images/football-book.png" alt="Football">
+    <img src="./images/tennis-book1.jpg" alt="Tennis">
+    <img src="./images/indian-casino.png" alt="Casino">
+  </div>
+  <button class="btn-WA btn-tel"  onclick="openTeleApp()"><i class="fa-brands fa-telegram"></i><span>Telegram</span></button>
+  <button class="btn-WA " onclick="openWhatsApp()" ><i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></button>
+ 
+  
+</div>
+<!-----------------About section-->
+<div class="about-section" id="about">
+  <div class="about-left">
+    <img src="./images/cricket-book.png" alt="">
+  </div>
+<div class="about-right">
+    <h1>About Laxmi Online Book</h1>
+    <p>Laxmi Online Book is India’s best responsible betting id provider, We provide <br> work with multiple exchanges and provide  multiple types of IDs. Like, IPL Id,<br> Cricket Id, Sports Id, Betting Id, Silver Exchange Cricket Id, and Dimond <br> Exchange Cricket Id With 24×7 live WhatsApp chat support.</p>
+    <div class="list-container">
+      <div class="list-container-left">
+        <h3><i class="fa-solid fa-circle-check" style="color: #2f7fca;"></i><span class="list-container-text">Safe and Secure</span></h3>
+        <h3><i class="fa-solid fa-circle-check" style="color: #2f7fca;"></i><span class="list-container-text">Wide Range of Sports</span></h3>
+        <h3><i class="fa-solid fa-circle-check" style="color: #2f7fca;"></i><span class="list-container-text">Fast Deposits and Withdrawals</span></h3>
+        <h3><i class="fa-solid fa-circle-check" style="color: #2f7fca;"></i><span class="list-container-text">24x7 Customer Support</span></h3>
+      </div>
+      <div class="list-container-right">
+        <h3><i class="fa-solid fa-circle-check" style="color: #2f7fca;"></i><span class="list-container-text">Competitive Odds</span></h3>
+        <h3><i class="fa-solid fa-circle-check" style="color: #2f7fca;"></i><span class="list-container-text">Unlimited Daily Withdrawals</span></h3>
+        <h3><i class="fa-solid fa-circle-check" style="color: #2f7fca;"></i><span class="list-container-text">
+          Regular Bonuses and <br> Promotions</span></h3>
+
+      </div>
+       
+      </div>
+  </div>
+</div>
+<div class="button-class"><button class="btn-WA btn-WA1" onclick="openWhatsApp()" ><i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></button></div>
+/
+<!-----------------------quick and easy---------------------------->
+<div class="quick-section">
+  <h1>Quick and Easy Withdrawals in Under 15 min</h1>
+<h3>Enjoy Easy Payments with Your Preferred Options!</h3>
+<h3>Get 24×7 Assistance for Your Queries by Our Customer Support Team</h3>
+<button id="btn-id" onclick="getId()">Get Your ID Now</button>
+</div>
+<div class="start-section">
+  <h1>How to Get Started With Your Online Cricket betting ID?</h1>
+
+  <p>To get started, you must first choose a trustworthy online Cricket betting ID provider who can assist you in taking the right steps. Among the many online <br> betting sites in India, choose one that is reputable, reliable, and secure.</p>
+
+  <p>If you have a keen interest in cricket betting, the initial step involves creating a demo betting account. This enables you to practice betting without any actual <br> financial risk. After accumulating some experience, you can then proceed to open a legitimate betting account and commence wagering on real matches. <br> We extend a complimentary demo betting account to all our users.</p>
+
+  <p>We’re readily available to address any inquiries you may have concerning cricket betting, offering 24/7 support to ensure you can always reach out for <br> assistance.</p>
+</div>
+<!----------------------------------- steps section ------------------->
+<div class="step-main-container">
+  <h1 id="step-heading">Here are some additional tips to help you:</h1>
+<div class="steps-container">
+  <div class="step">
+    <h1>1</h1>
+    <h3>STEP</h3>
+    <p>Study and learn. Before you start betting, it’s a <br> good idea to do some research and find out as <br> much as you can about the teams and players. <br> This will make it easier to make smart betting <br> choices.</p>
+  </div>
+  <div class="step">
+    <h1>2</h1>
+    <h3>STEP</h3>
+    <p>Decide on a money limit. It’s important to pick a <br> limit for how much money you can use for <br> betting and stick to it. This way, you won’t spend <br> too much and end up losing more than you can <br>afford.</p>
+  </div>
+  <div class="step">
+    <h1>3</h1>
+    <h3>STEP</h3>
+    <p>Be patient. You won’t win every time you bet. <br> Sometimes, you might lose money. But if you <br> stay patient and keep learning, you’ll eventually <br> start winning more often.</p>
+  </div>
+
+</div>
+</div>
+<!-------------------------------------payemnt Section---------------->
+<div class="payment-section">
+  <h1>PAYMENT ACCEPTED</h1>
+  <div class="payment-img">
+    <img src="./images/google pay.png" alt="Google Pay">
+    <img src="./images/Phone Pay.png" alt="Phone Pay">
+    <img src="./images/Paytm.png" alt="Paytm">
+    <img src="./images/UPI.png" alt="UPI">
+    <img src="./images/Bank Deposit.png" alt="Bank Deposit">
+  </div>
+</div>
+<!-----------------------------join group------------------------->
+<div class="join-group">
+  <h1>Join Our Telegram Group, WhatsApp Group or Signal Group</h1>
+  <button class="btn-join btn-join-tel" onclick="openTeleApp()" ><i class="fa-brands fa-telegram"></i><span>Join Telegram Group</span></button>
+  <button class="btn-join" ><i class="fa-brands fa-whatsapp" onclick="openWhatsApp()"></i><span>Join WhatsApp Group</span></button>
+</div>
+<!----------------------------Bottom content-------------------->
+<div class="bottom-content">
+  <h4>Best Betting ID Providers in India</h4>
+<p>Laxmi Online Book provides an easy platform for online betting in over 150 different sports. We offer a variety of perks to our customers so that they can make the most of their time with us.</p>
+
+<p>We offer quick and easy deposits and withdrawals with no limitations. We value your money and try our best to offer you the most enjoyable experience while betting online in sports.</p>
+
+<p>Our 24×7 customer support team is always available to assist you in setting up your online betting ID or payment methods. We accept multiple payment options such as Bank, UPI and e-wallets. We <br> provide safe and secure payments with encryption to protect your personal and financial information.</p>
+
+<h4>Get Free IPL Cricket ID Online</h4>
+<p>Ready for the ultimate thrill of IPL cricket betting? Look no further!LaxmiOnline Book is here to make it happen. We’re offering you a FREE IPL Cricket ID online, so you can join the action without any <br>hassle. Enjoy top-notch odds, live updates, and a wide range of betting options. Don’t miss your chance to bet on your favorite IPL teams and players – claim your FREE IPL Cricket ID atLaxmiOnline <br>Book today and start winning!</p>
+
+<h4>Get Free World Cup Cricket ID Online</h4>
+
+<p>Ready for the ultimate thrill of IPL cricket betting? Look no further!LaxmiOnline Book is here to make it happen. We’re offering you a FREE IPL Cricket ID online, so you can join the action without any hassle. Enjoy top-notch odds, live updates, and a wide range of betting options. Don’t miss your chance to bet on your favorite IPL teams and players – claim your FREE IPL Cricket ID atLaxmiOnline Book today and start winning!</p>
+</div>
+<!------------------------------line---------------------------->
+<div id="line"></div>
+<!----------------------------------important links---------------->
+<div class="link-container" id="contact">
+  <div class="link-1">
+    <img src="./images/laxmi-book-logo.jpg" alt="Laxmi">
+    <p>Laxmi Online Book is India’s best <br> responsible betting id provider, We <br> provide work with multiple exchanges <br>and provide multiple types of IDs.</p>
+  </div>
+  <div class="link-2">
+    <h1>Important Links</h1>
+    <div class="link-2-a">
+      <a href="">Home</a>
+      <a href="">About Us</a>
+      <a href="">Contact Us</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Terms & Conditions</a>
+      <a href="">Rules and Regulation</a>
+    </div>
+  </div>
+  <div class="link-3">
+    <h1>Our Games</h1>
+    <div class="link-3-a">
+      <a href="https://en.wikipedia.org/wiki/Cricket">Cricket</a>
+      <a href="https://en.wikipedia.org/wiki/Chess">Chess</a>
+      <a href="https://en.wikipedia.org/wiki/Football">Football</a>
+      <a href="https://en.wikipedia.org/wiki/Tennis">Tennis</a>
+    </div>
+  </div>
+  <div class="link-4">
+    <h1>contact info</h1>
+    <button class="btn-link" ><i class="fa-brands fa-telegram"  onclick="openTeleApp()" ></i><span>Telegram Group</span></button> <br>
+    <button class="btn-link" ><i class="fa-brands fa-whatsapp" onclick="openWhatsApp()"></i><span>WhatsApp Group</span></button>
+  </div>
+</div>
+<div id="line"></div>
+
+<footer>
+  <p><span>Warning</span>: these Daily Fantasy Sports are strictly for 18+ users. According to the guidelines, which become effective from December 15, no person below 18 years of age <br> should be shown playing such games for real money winnings. Not available in states of Telangana, Orissa, Assam, Sikkim, and Nagaland due to local laws.</p>
+  <div class="end-block">
+    <div class="tele">
+      <img src="./images/telegram.png" alt="telegram">
+      <h1>Telegram</h1>
+    </div>
+    <div class="tele">
+      <img src="./images/WhatsApp.png" alt="whatsApp">
+      <h1>WhatsApp</h1>
+    </div>
+    <div class="tele">
+      <img src="./images/Instragram.png" alt="Instagram">
+      <h1>Instagram</h1>
+    </div>
+    <button onclick="topFunction()" id="up-arrow"><i class="fa-solid fa-angle-up"></i></button>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
